@@ -1,6 +1,15 @@
 body {font-family: 'Merriweather', serif;
     font-family: 'Poppins', sans-serif;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 5%;
+}
+.top-nav a{
+    text-decoration: none;
+    margin-right: 10px;
+}
 h1 {
     font-size: 50px;
 }
@@ -21,4 +30,16 @@ section {
    padding: 10px 20px;
    text-align: center;
    border-radius: 20px;
+}
+/*......product.....*/
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+.product-title{
+    font-size: 30px;
+}
+.fa-star.fild{
+ color: #ffc014;   
 }
