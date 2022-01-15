@@ -16,6 +16,7 @@ h1 {
 section {
     display: flex;
 }
+
 .top{
     width: 50%;
     padding: 5%;
@@ -31,15 +32,65 @@ section {
    text-align: center;
    border-radius: 20px;
 }
+hr{
+   border: 1px solid skyblue;
+}
+
 /*......product.....*/
+h2{
+    text-align: center;
+}
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 30px;
+}
+.product{
+   margin: 5%;
+    padding: 30px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5%;
+}
+.product-image img{
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+
 }
 .product-title{
     font-size: 30px;
 }
 .fa-star.fild{
  color: #ffc014;   
+}
+.more{
+    text-align: right;
+    color: deeppink;
+}
+.optional{
+    display: flex;
+  
+}
+.optional img{
+    width: 100%;
+}
+.gadget{
+    width: 40%;
+    margin: 5%;
+}
+/* footer */
+.contract{
+background-color: black;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.about-us{
+    text-align: center;
+    color: white;
+}
+.social{
+    text-align: center;
+    color: white;
 }
