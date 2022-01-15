@@ -1,0 +1,24 @@
+body {font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+section {
+    display: flex;
+}
+.top{
+    width: 50%;
+    padding: 5%;
+}
+.top img{
+    width: 80%;
+}
+.button{
+    text-decoration: none;
+    background-color: deeppink;
+    color: white;
+   padding: 10px 20px;
+   text-align: center;
+   border-radius: 20px;
+}
